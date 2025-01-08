@@ -13,8 +13,8 @@ group :development do
   gem "rubocop-rails", require: false
   gem "rubocop-rspec", require: false
 
-  gem "activerecord",   github: "rails/rails", branch: "8-0-stable"
-  gem "ruby-plsql", github: "rsim/ruby-plsql", branch: "master"
+  gem "activerecord"
+  gem "ruby-plsql"
 
   platforms :ruby do
     gem "ruby-oci8",    github: "kubo/ruby-oci8"
