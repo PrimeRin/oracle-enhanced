@@ -13,7 +13,7 @@ group :development do
   gem "rubocop-rails", require: false
   gem "rubocop-rspec", require: false
 
-  gem "activerecord"
+  gem "activerecord", "8.0.1"
   gem "ruby-plsql"
 
   platforms :ruby do
