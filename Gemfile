@@ -14,7 +14,7 @@ group :development do
   gem "rubocop-rspec", require: false
 
   gem "activerecord", "8.0.1"
-  gem "ruby-plsql"
+  gem "ruby-plsql",  github: "rsim/ruby-plsql", branch: "master"
 
   platforms :ruby do
     gem "ruby-oci8",    github: "kubo/ruby-oci8"
